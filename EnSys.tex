@@ -1,0 +1,67 @@
+% ========================================= TEMPLATE INFO ========================================
+%
+% Author:       P4ntomime
+% Version:      1.0.0
+% Last updated: 2024-02-18
+% Brief:        A LaTeX template for summaries. See README.md for more information.
+% 
+% ================================================================================================
+\documentclass[8pt, a4paper, twoside]{extarticle}
+% Font size:    8pt
+% Paper size:   A4
+% style:        twoside (needed, so odd and even pages have different margins)
+% orientation:  portrait. (use 'landscape' for landscape orientation)
+
+
+% ========================================= DOCUMENT INFO =========================================
+\def\title{Energiesysteme}                      % title
+\def\shorttitle{EnSys}                          % short title (displayed as PDF title)
+\def\dozent{Dr. A Fuchs, Dr. T Demiray}         % lecturer
+\def\semester{6. Semester}                      % semester
+\def\author{Fabian Suter}                       % author(s)
+\def\repo{https://github.com/FabianSuter/EnSys.git} % repository link
+\def\version{1.0.\today}                        % version
+\def\pagelimit{100}                             % page limit -> causes pages after limit to be red
+\def\titleoption{compact}                       % options: ultra compact, compact, normal
+\def\enableToC{true}
+
+% ================================= PACKAGES, SETUP AND COMMANDS ==================================
+\input{preamble.tex}
+
+
+% =========================================== DOCUMENT ============================================
+\begin{document}
+    \begin{layout}
+        % \input{sections/00_Energie_und_Elektrizitätswirtschaft.tex}    
+        % \input{sections/05_Wasserdargebot_Abflussganglinien_Abflussdauerkurven.tex}
+        % \input{sections/10_Wasserkraft.tex} 
+        % \input{sections/11_Stauanlagen_und_Wasserfassung_Speicherkraftwerke.tex}
+        % \input{sections/12_Abschlussorgane.tex}
+        % \input{sections/13_Stauanlagen_Laufwasserkraftwerke.tex}
+        % \input{sections/15_Wasserkraftwerk_Typen.tex}
+        % \input{sections/20_Turbinen.tex}
+        % \input{sections/23_Thermische_Kraftwerke.tex}
+        % \input{sections/30_Gas_und_Dampfturbinenkraftwerke.tex}
+        % \input{sections/35_Kombianlagen_für_Kraft-und_Wärmekopplung.tex}
+        % \input{sections/40_Atomkraftwerk.tex}
+        \input{sections/45_Windenergie_Windkraftwerke.tex}
+        \input{sections/50_Netze_Allgemein.tex}
+        \input{sections/51_Netzebenen.tex}
+        \input{sections/52_Netztopologien.tex}
+        \input{sections/53_Komponenten_und_Technologie_Leitungen.tex}
+        \input{sections/54_Komponenten_und_Technologie_Schaltanlagen_Umspanwerke.tex}
+        \input{sections/55_Leitungsbeläge.tex}
+        \input{sections/56_Leitungsmodell.tex}
+        % \input{sections/57_Betriebsverhalten.tex}
+        % \input{sections/58_Transformatormodell.tex}
+        % \input{sections/60_Leistungsfluss_über_eine_Leitung.tex}
+        % \input{sections/61_Lastflussproblem.tex}
+        % \input{sections/65_Störungen_in_Stromnetzen.tex}
+        % \input{sections/67_Schutztechnik.tex}
+        % \input{sections/70_Stabilität.tex}
+        % \input{sections/71_Frequenzregelung.tex}
+        % \input{sections/75_Transiente_Stabilität.tex}
+        % \input{sections/76_Spannungsregelung.tex}
+    %\end{comment}
+    \end{layout}
+\end{document}

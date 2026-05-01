@@ -1,0 +1,444 @@
+\section{Energie- und Elektrizitätswirtschaft}
+
+\subsection{Masseinheiten}
+
+\begin{tabular}{|l|c|l|}
+    \hline
+    \textbf{Masseinheit}    & \textbf{Zeichen}  & \textbf{Umrechnung} \\
+    \hline
+    Watt                    & (W)               & \\ 
+    Pferdestärke            & (PS)              & 1 PS $\approx$ 735 W \\ 
+    \hline
+    Joule                   & (J)               & \\ 
+    Wattsekunde             & (Ws)              & 1 Ws = 1 J \\ 
+    Kilowattstunde          & (kWh)             & 1 kWh = 3 600 000 J = 3,6 MJ \\ 
+    Kalorie                 & (cal)             & 1 cal$_{IT}$ = 4,1868 J \\ 
+    \hline
+\end{tabular}
+
+
+\subsection{Umrechnungsfaktoren}
+
+\begin{tabular}{|l|c|c|c|c|}
+    \hline
+    \textbf{\textbf{Von | Zu}}  & \textbf{J = Ws}           & \textbf{kWh}                  & \textbf{GWh}              & \textbf{cal} \\
+    \hline
+            J = Ws              & 1                         & $0,2778 \cdot 10^{-6}$        & $0,2778 \cdot 10^{-12}$   & 0,2388 \\
+            TJ                  & $1 \cdot 10^{12}$         & $0,2778 \cdot 10^{6}$         & 0,2778                    & $0,2388 \cdot 10^{12}$ \\
+            kWh                 & $3,6 \cdot 10^{6}$        & 1                             & $1 \cdot 10^{-6}$         & $0,8598 \cdot 10^{6}$ \\
+            GWh                 & $3,6 \cdot 10^{12}$       & $1 \cdot 10^{6}$              & 1                         & $0,8598 \cdot 10^{12}$ \\
+            cal                 & 4,1868                    & $1,163 \cdot 10^{-6}$         & $1,163 \cdot 10^{-12}$    & 1 \\
+    \hline
+\end{tabular}
+
+
+\subsection{Dezimalfaktoren}
+\begin{tabular}{|l|c|r|}
+    \hline
+    \textbf{Bezeichnung}    & \textbf{Faktor}   & \textbf{Wert} \\
+    \hline
+    Kilo  (k)               & \(10^3\)          & 1 000 \\
+    Mega  (M)               & \(10^6\)          & 1 000 000 \\
+    Giga  (G)               & \(10^9\)          & 1 000 000 000 \\
+    Tera  (T)               & \(10^{12}\)       & 1 000 000 000 000 \\
+    Peta  (P)               & \(10^{15}\)       & 1 000 000 000 000 000 \\
+    \hline
+\end{tabular}
+
+
+\subsection{Energien}
+
+\subsubsection{Potentielle Energie $W_{\text{pot}}$}
+$\boxed{W_{\text{pot}} = m \cdot g \cdot h}$ \quad $g = 9{,}81\,\mathrm{\frac{m}{s^2}}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[W_{\text{pot}}]$  & Potentielle Energie   \dotfill & $\mathrm{Ws = Nm = J}$ \\
+    $[m]$               & Masse                 \dotfill & $\mathrm{kg}$ \\
+    $[g]$               & Erdbeschleunigung     \dotfill & $\mathrm{\frac{m}{s^2}}$ \\
+    $[h]$               & Höhenunterschied      \dotfill & $\mathrm{m}$ \\
+\end{tabular}
+
+\subsubsection{Kinetische Energie $W_{\text{kin}}$}
+$\boxed{W_{\text{kin}} = \frac{1}{2} \cdot m \cdot v^2}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[W_{\text{kin}}]$  & Kinetische Energie   \dotfill & $\mathrm{Ws = Nm = J}$ \\
+    $[m]$               & Masse                \dotfill & $\mathrm{kg}$ \\
+    $[v]$               & Geschwindigkeit      \dotfill & $\mathrm{\frac{m}{s}}$ \\
+\end{tabular}
+
+\subsubsection{Federenergie $W_{\text{F}}$}
+$\boxed{W_{\text{F}} = \frac{1}{2} \cdot F \cdot s}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[W_{\text{F}}]$  & Federenergie                \dotfill & $\mathrm{Ws = Nm = J}$ \\
+    $[F]$             & Kraft                       \dotfill & $\mathrm{N = kg \cdot \frac{m}{s^2}}$ \\
+    $[s]$             & Verschiebung (Auslenkung)   \dotfill & $\mathrm{m}$ \\
+\end{tabular}
+
+\subsubsection{Kondensatorenergie $W_{\text{C}}$}
+$\boxed{W_{\text{C}} = \frac{1}{2} \cdot C \cdot U^2}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[W_{\text{C}}]$  & Kondensatorenergie    \dotfill & $\mathrm{Ws = Nm = J}$ \\
+    $[C]$             & Kapazität             \dotfill & $\mathrm{F = \frac{As}{V}}$ \\
+    $[U]$             & Spannung              \dotfill & $\mathrm{V}$ \\
+\end{tabular}
+
+\subsubsection{Induktivitätsenergie $W_{\text{L}}$}
+$\boxed{W_{\text{L}} = \frac{1}{2} \cdot L \cdot I^2}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[W_{\text{L}}]$  & Induktivitätsenergie  \dotfill & $\mathrm{Ws = Nm = J}$ \\
+    $[L]$             & Induktivität          \dotfill & $\mathrm{H = \frac{Vs}{A}}$ \\
+    $[I]$             & Stromstärke           \dotfill & $\mathrm{A}$ \\
+\end{tabular}
+
+\subsubsection{Batterieenergie $W_{\text{bat}}$}
+$\boxed{W_{\text{bat}} = Q \cdot U}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[W_{\text{bat}}]$  & Batterieenergie       \dotfill & $\mathrm{Ws = Nm = J}$ \\
+    $[Q]$               & Elektrische Ladung    \dotfill & $\mathrm{C = As}$ \\
+    $[U]$               & Spannung              \dotfill & $\mathrm{V}$ \\
+\end{tabular}
+
+\newcolumn
+\subsubsection{Thermische Energie $W_{\text{th}}$}
+$\boxed{W_{\text{th}} = m \cdot c \cdot (\vartheta_1 - \vartheta_2)}$ \quad $c_{\text{Wasser}} = 4187\,\mathrm{\frac{J}{kg \cdot K}}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[W_{\text{th}}]$       & Thermische Energie          \dotfill & $\mathrm{Ws = Nm = J}$ \\
+    $[m]$                   & Masse                       \dotfill & $\mathrm{kg}$ \\
+    $[c]$                   & Spezifische Wärmekapazität  \dotfill & $\mathrm{\frac{J}{kg \cdot K}}$ \\
+    $[\vartheta_1]$         & Anfangstemperatur           \dotfill & $^\circ\mathrm{C}$ oder $\mathrm{K}$ \\
+    $[\vartheta_2]$         & Endtemperatur               \dotfill & $^\circ\mathrm{C}$ oder $\mathrm{K}$ \\
+\end{tabular}
+
+
+\subsubsection{Spezifische Energie $e$}
+$\boxed{e = \frac{W}{m}}$ \quad $\boxed{W = e \cdot m}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[e]$  & Spezifische Energie    \dotfill & $\mathrm{\frac{J}{kg}}$ \\
+    $[W]$  & Gesamtenergie          \dotfill & $\mathrm{J}$ \\
+    $[m]$  & Masse                  \dotfill & $\mathrm{kg}$ \\
+\end{tabular}
+
+\subsubsection{Rotationsenergie $W_{\text{rot}}$}
+$\boxed{W_{\text{rot}} = \frac{1}{2} \cdot J \cdot \omega^2 }$ \quad $\boxed{W_{\text{rot}} = 2 \cdot J \cdot \pi^2 \cdot f^2 }$ \quad $\boxed{W_{\text{rot}} = \frac{J \cdot \pi^2 \cdot n^2}{1800}}$
+
+\vspace{0.15cm}
+
+$\boxed{\omega = 2 \cdot \pi \cdot f}$ \quad $\boxed{f = \frac{n}{60}}$ \quad $\boxed{n = f \cdot 60}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {5cm} l @{}}
+    $[W_{\text{rot}}]$  & Rotationsenergie                      \dotfill & $\mathrm{Ws = Nm = J}$ \\
+    $[J]$               & Trägheitsmoment                       \dotfill & $\mathrm{kg \cdot m^2}$ \\
+    $[\omega]$          & Winkelgeschwindigkeit                 \dotfill & $\mathrm{\frac{rad}{s}}$ \\
+    $[f]$               & Drehfrequenz, Umdrehungen pro Sekunde \dotfill & $\mathrm{\frac{1}{s} = \frac{U}{s}}$ \\
+    $[n]$               & Umdrehungen pro Minute                \dotfill & $\mathrm{\frac{1}{min} = \frac{U}{min}}$ \\
+\end{tabular}
+
+\vspace{0.15cm}
+
+\myul{\textbf{Massenträgheitsmoment $J$}}\\
+
+\vspace{0.15cm}
+
+\includegraphics[width=0.75\linewidth]{images/Physik_1-Mechanik.png}
+
+\subsection{Vor- und Nachteile Elektroenergie}
+
+\textbf{Vorteile}\\
+\begin{itemize}
+    \item einfach zu verteilen
+    \item beliebig klein dosierbar
+    \item gut regulierbar
+    \item Einfach in andere Energieformen wandelbar
+    \item problemlos und sauber in der Anwendung (keine Emissionen)
+    \item Vielfältig einsetzbar
+\end{itemize}
+
+\textbf{Nachteile}\\
+\begin{itemize}
+    \item leitungsgebunden
+    \item Gleichzeitigkeit von Erzeugung und Bedarf
+    \item kann nicht direkt aus der Natur gewonnen werden
+    \item Speicherung ist aufwendig
+\end{itemize}
+
+\subsection{Anteil Elektrische Energie}
+In der Schweiz beträgt der Anteil Elektrischer Energie bei rund bei rund 25\% bis 30\% des gesamten Endenergieverbrauchs.
+
+\newcolumn
+\subsection{Leistung}
+
+\subsubsection{Rotationsleistung $P_{\text{rot}}$}
+$\boxed{P = M \cdot \omega}$ \quad $\boxed{P = M \cdot 2 \cdot \pi \cdot f }$ \quad $\boxed{P = \frac{M \cdot 2 \cdot \pi \cdot n}{60} }$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[P_{\text{rot}}]$ & Rotationsleistung        \dotfill & $\mathrm{W = \frac{J}{s} = \frac{Nm}{s}}$ \\
+    $[M]$              & Drehmoment               \dotfill & $\mathrm{Nm}$ \\
+    $[\omega]$         & Winkelgeschwindigkeit    \dotfill & $\mathrm{\frac{rad}{s}}$ \\
+    $[f]$              & Drehfrequenz             \dotfill & $\mathrm{Hz = \frac{1}{s}}$ \\
+    $[n]$              & Umdrehungen pro Minute   \dotfill & $\mathrm{\frac{1}{min} = \frac{U}{min}}$ \\
+\end{tabular}
+
+\subsubsection{Thermische Leistung $P_{\text{th}}$}
+$\boxed{P_{\text{th}} = \dot{m} \cdot c \cdot \Delta \vartheta}$ \quad $\boxed{\dot{m} = \rho \cdot \dot{V} }$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[P_{\text{th}}]$       & Thermische Leistung           \dotfill & $\mathrm{W = \frac{J}{s}}$ \\
+    $[\dot{m}]$             & Massenstrom                   \dotfill & $\mathrm{\frac{kg}{s}}$ \\
+    $[c]$                   & Spezifische Wärmekapazität    \dotfill & $\mathrm{\frac{J}{kg \cdot K}}$ \\
+    $[\Delta \vartheta]$    & Temperaturdifferenz           \dotfill & $\mathrm{K}$ oder $^\circ\mathrm{C}$ \\
+    $[\rho]$                & Dichte                        \dotfill & $\mathrm{\frac{kg}{m^3}}$ \\
+    $[\dot{V}]$             & Volumenstrom                  \dotfill & $\mathrm{\frac{m^3}{s}}$ \\
+\end{tabular}
+
+\subsubsection{Transmissions-Wärmeverlustleistung $P_{\text{VW}}$}
+$\boxed{P_{\text{VW}} = U \cdot A \cdot \Delta \vartheta}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[P_{\text{VW}}]$           & Wärmeverlustleistung          \dotfill & $\mathrm{W = \frac{J}{s}}$ \\
+    $[U]$                       & Wärmedurchgangskoeffizient    \dotfill & $\mathrm{\frac{W}{m^2 \cdot K}}$ \\
+    $[A]$                       & Fläche                        \dotfill & $\mathrm{m^2}$ \\
+    $[\Delta \vartheta]$        & Temperaturdifferenz           \dotfill & $\mathrm{K}$ \\
+\end{tabular}
+
+\subsubsection{Mechanische Leistung $P_v$}
+$\boxed{P_v = F \cdot v}$ \quad $\boxed{F = m \cdot g}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[P_v]$   & Mechanische Leistung   \dotfill & $\mathrm{W = \frac{J}{s} = \frac{Nm}{s}}$ \\
+    $[F]$     & Kraft                  \dotfill & $\mathrm{N = kg \cdot \frac{m}{s^2}}$ \\
+    $[m]$     & Masse                  \dotfill & $\mathrm{kg}$ \\
+    $[g]$     & Erdbeschleunigung      \dotfill & $\mathrm{\frac{m}{s^2}}$ \\
+    $[v]$     & Geschwindigkeit        \dotfill & $\mathrm{\frac{m}{s}}$ \\
+\end{tabular}
+
+
+
+\subsubsection{Leistung der Solaranlage $P_{\text{PV}}$}
+$\boxed{P_{\text{PV}} = \eta \cdot A \cdot E}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[P_{\text{PV}}]$    & Elektrische Leistung         \dotfill & $\mathrm{W = \frac{J}{s}}$ \\
+    $[\eta]$             & Wirkungsgrad                 \dotfill & $-$ \\
+    $[A]$                & Fläche der Solaranlage       \dotfill & $\mathrm{m^2}$ \\
+    $[E]$                & Einstrahlung                 \dotfill & $\mathrm{\frac{W}{m^2}}$ \\
+\end{tabular}
+
+
+
+\subsubsection{Leistung eines Wasserkraftwerks $P$}
+$\boxed{P = \eta \cdot \rho \cdot g \cdot \dot{V} \cdot h}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[P]$         & Elektrische Leistung          \dotfill & $\mathrm{W = \frac{J}{s}}$ \\
+    $[\eta]$      & Wirkungsgrad                  \dotfill & $-$ \\
+    $[\rho]$      & Dichte                        \dotfill & $\mathrm{\frac{kg}{m^3}}$ \\
+    $[g]$         & Erdbeschleunigung             \dotfill & $\mathrm{\frac{m}{s^2}}$ \\
+    $[\dot{V}]$   & Volumenstrom                  \dotfill & $\mathrm{\frac{m^3}{s}}$ \\
+    $[h]$         & Höhendifferenz                \dotfill & $\mathrm{m}$ \\
+\end{tabular}
+
+
+
+\subsubsection{Verminderung des Wasserstands in einem Stausee $\Delta h$}
+$\boxed{\Delta h = \frac{V}{A_\mathrm{Stausee}} = \frac{Q \cdot t}{A_\mathrm{Stausee}}}$
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p{6.5cm} l @{}}
+    $[h]$               & Wasserstandssenkung im Stausee \dotfill & $\mathrm{m}$ \\
+    $[V]$               & Entnommenes Wasservolumen \dotfill & $\mathrm{m^3}$ \\
+    $[A_\mathrm{Stausee}]$ & Oberfläche des Stausees \dotfill & $\mathrm{m^2}$ \\
+    $[Q]$               & Volumenstrom (z.\,B. Turbinenstrom) \dotfill & $\frac{\mathrm{m^3}}{\mathrm{s}}$ \\
+    $[t]$               & Zeitdauer der Entnahme \dotfill & $\mathrm{s}$ \\
+\end{tabular}
+
+
+
+\subsubsection{Drehstrom-Leistungsberechnung $P_{\circlearrowleft}$}
+$\boxed{P_{\circlearrowleft} = \sqrt{3} \cdot U \cdot I \cdot \cos(\varphi)}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[P_{\circlearrowleft}]$  & Wirkleistung              \dotfill & $\mathrm{W = \frac{J}{s}}$ \\
+    $[U]$                     & Verkettete Spannung       \dotfill & $\mathrm{V}$ \\
+    $[I]$                     & Stromstärke               \dotfill & $\mathrm{A}$ \\
+    $[\cos(\varphi)]$         & Leistungsfaktor           \dotfill & $-$ \\
+\end{tabular}
+
+
+
+\newcolumn
+\subsection{Schweizer Strom-Mix}
+$
+\begin{array}{|c|l|}
+    \hline
+    38.1 \% & \text{Kernkraft} \\ \hline
+    32.3 \% & \text{Speicherkraftwerke} \\ \hline
+    24.2 \% & \text{Laufkraftwerke} \\ \hline
+    5.4 \% & \text{konventionell-thermische Kraftwerke} \\ \hline
+\end{array}
+$
+
+$
+\begin{tabular}{|c|l|}
+    \hline
+    1.52 \% & Kehrichtverbrennungsanlagen \\ \hline
+    0.29 \% & Biomasse \\ \hline
+    0.19 \% & Abwasserreinigungsanlagen \\ \hline
+    0.13 \% & Photovoltaik \\ \hline
+    0.06 \% & Windkraft \\ \hline
+\end{tabular}
+$
+
+
+\subsection{Investitions- und Kostenrechnung}
+
+\subsubsection{Annuitätsfaktor $A$}
+$\boxed{A = \frac{(1 + i)^n \cdot i}{(1 + i)^n - 1}}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[A]$       & Annuitätsfaktor           \dotfill & $1$ \\
+    $[i]$       & Zinsen                    \dotfill & $1$ \\
+    $[n]$       & Anzahl Jahre Laufzeit     \dotfill & $1$ \\
+\end{tabular}
+
+
+\subsubsection{Kapitalkosten $K_{\text{K}}$}
+$\boxed{K_{\text{K}} = A \cdot I}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[K_{\text{K}}]$    & Kapitalkosten     \dotfill & CHF oder € \\
+    $[A]$               & Annuitätsfaktor   \dotfill & $1$ \\
+    $[I]$               & Investitionen     \dotfill & CHF oder € \\
+\end{tabular}
+
+
+\subsubsection{Unterhaltskosten $K_{\text{U}}$}
+$\boxed{K_{\text{U}} = p_{\text{U}} \cdot I}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[K_{\text{U}}]$    & Unterhaltskosten              \dotfill & CHF oder € \\
+    $[p_{\text{U}}]$    & Unterhaltskosten-Prozentsatz  \dotfill & $1$ \\
+    $[I]$               & Investitionen                 \dotfill & CHF oder € \\
+\end{tabular}
+
+
+\subsubsection{Fix-Kosten $K_{\text{Fix}}$}
+$\boxed{K_{\text{Fix}} = K_{\text{K}} + K_{\text{U}} = (A + p_{\text{U}}) \cdot I}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[K_{\text{Fix}}]$    & Fix-Kosten              \dotfill & CHF oder € \\
+\end{tabular}
+
+
+\subsubsection{Erlös oder Deckungsbeitrag $E$}
+$\boxed{E = t_{\text{VL}} \cdot C \cdot P}$
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[E]$               & Erlös             \dotfill & CHF oder € \\
+    $[t_{\text{VL}}]$   & Volllaststunden   \dotfill & $\mathrm{h}$ \\
+    $[C]$               & Grenzkosten       \dotfill & $\frac{\text{CHF}}{\text{MWh}}$ oder $\frac{\text{€}}{\text{MWh}}$ \\
+    $[P]$               & Leistung          \dotfill & $\mathrm{W = \frac{Nm}{s} = \frac{J}{s}}$ \\
+\end{tabular}
+
+
+\subsubsection{Ergebnis (Gewinn oder Verlust) $G$}
+$\boxed{G = E - K_{\text{Fix}} - K_{\text{Var}}}$
+
+\subsubsection{Variable Kosten $K_{\text{V}}$}
+
+\vspace{0.15cm}
+
+\renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
+\begin{tabular}{@{} l p {4cm} l @{}}
+    $[G]$               & Ergebnis        \dotfill & CHF oder € \\
+    $[E]$               & Erlös           \dotfill & CHF oder € \\
+    $[K_{\text{Fix}}]$  & Fix-Kosten      \dotfill & CHF oder € \\
+    $[K_{\text{Var}}]$  & Variable Kosten \dotfill & CHF oder € \\
+\end{tabular}
+
+\subsection{Kraftwerke im Vergleich}
+\begin{tabular}{|l|l|l|l|}
+\hline
+Kraftwerksart & $P_{el}$/MW & $\eta$/\% & $W/P_{el}$ kWh/kW \\
+\hline
+Kernkraftwerke & 500...1300 & 33...37 & 1,3...4 \\
+Dampfkraftwerke & 100...1000 & 35...43 & 0,5...1,1 \\
+Wasserkraftwerke & 10...820 & 85...95 & 0,2...0,4 \\
+GuD-Kraftwerke & 100...300 & 50...58 & 0,8...1,1 \\
+Gasturbinenkraftwerke & 10...265 & 34...39,5 & 0,2...0,5 \\
+BHKW & 0,05...20 & 32...40 & 0,8...1,3 \\
+Windkraftanlagen & 0,01...5 & 20...30 & 7 $\cdot 10^3$...20 $\cdot 10^3$ \\
+Solarkraftwerke & ...80 & 10...14 & 5...10 \\
+PV-Kraftwerke & ...7 & 6...12 & 7 $\cdot 10^3$...20 $\cdot 10^3$ \\
+\hline
+\end{tabular}
+
