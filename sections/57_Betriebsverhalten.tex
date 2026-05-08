@@ -1,90 +1,88 @@
 \section{Betriebsverhalten}
-
-
 \subsection{Natürliche Leistung}
+    \begin{itemize}
+        \item Bei einer gewissen Belastung wird in den Querelementen genau so viel Blindleistung „erzeugt“ wie im Längspfad „verbraucht“ wird.
+        \item Diese Belastung nennt man natürliche Belastung bzw. natürliche Leistung.
+        \item Die Leitung verhält sich neutral bezüglich Blindleistung.
+        \item Die natürliche Leistung wird übertragen, wenn die Leitung mit ihrer Wellenimpedanz belastet wird.
+    \end{itemize}
 
-\begin{itemize}
-    \item Bei einer gewissen Belastung wird in den Querelementen genau so viel Blindleistung „erzeugt“ wie im Längspfad „verbraucht“ wird.
-    \item Diese Belastung nennt man natürliche Belastung bzw. natürliche Leistung.
-    \item Die Leitung verhält sich neutral bezüglich Blindleistung.
-    \item Die natürliche Leistung wird übertragen, wenn die Leitung mit ihrer Wellenimpedanz belastet wird.
-\end{itemize}
+    \vspace{0.1cm}
 
-\vspace{0.15cm}
-
-\includegraphics[width=0.98\columnwidth, align=c]{images/Natürliche_Leistung.png}
-
+    \includegraphics[width=0.9\columnwidth, align=c]{images/Natürliche_Leistung.png}
 
 \subsection{Wellenimpedanz}
-
-\begin{itemize}
-    \item Bei Abschluss mit der Wellenimpedanz „erzeugt“ die Leitung genau so viel Blindleistung wie sie „verbraucht“.
-    \item Typische Wellenimpedanzwerte für Freileitung: \( |\!Z_W\!| = 200 \ldots 400\,\Omega \).
-    \item Typische Wellenimpedanzwerte für Kabel: \( |\!Z_W\!| = 30 \ldots 50\,\Omega \).
-\end{itemize}
-
+    \begin{itemize}
+        \item Bei Abschluss mit der Wellenimpedanz „erzeugt“ die Leitung genau so viel Blindleistung wie sie „verbraucht“.
+        \item Typische Wellenimpedanzwerte für Freileitung: \( |\!Z_W\!| = 200 \ldots 400\,\Omega \).
+        \item Typische Wellenimpedanzwerte für Kabel: \( |\!Z_W\!| = 30 \ldots 50\,\Omega \).
+    \end{itemize}
 
 \subsection{Unternatürliche Belastung}
-
-\begin{itemize}
-    \item Die Lastimpedanz ist höher als die Wellenimpedanz.
-    \item Die Last nimmt weniger als die natürliche Leistung auf, Leitung nimmt Blindleistung auf.
-    \item Die Längsinduktivität „verbraucht“ weniger Blindleistung als die Quer­kapazität „erzeugt“.
-    \item Die Spannung am Leitungsende ist höher als am Leitungsanfang.
-\end{itemize}
-
+    \begin{itemize}
+        \item Die Lastimpedanz ist höher als die Wellenimpedanz.
+        \item Die Last nimmt weniger als die natürliche Leistung auf, Leitung nimmt Blindleistung auf.
+        \item Die Längsinduktivität „verbraucht“ weniger Blindleistung als die Quer­kapazität „erzeugt“.
+        \item Die Spannung am Leitungsende ist höher als am Leitungsanfang.
+    \end{itemize}
 
 \subsection{Übernatürliche Belastung}
-
-\begin{itemize}
-    \item Die Lastimpedanz ist niedriger als die Wellenimpedanz.
-    \item Die Last nimmt mehr als die natürliche Leistung auf, Leitung gibt Blindleistung ab.
-    \item Die Längsinduktivität „verbraucht“ mehr Blindleistung als die Quer­kapazität „erzeugt“.
-    \item Die Spannung am Leitungsende ist tiefer als am Leitungsanfang.
-\end{itemize}
-
+    \begin{itemize}
+        \item Die Lastimpedanz ist niedriger als die Wellenimpedanz.
+        \item Die Last nimmt mehr als die natürliche Leistung auf, Leitung gibt Blindleistung ab.
+        \item Die Längsinduktivität „verbraucht“ mehr Blindleistung als die Quer­kapazität „erzeugt“.
+        \item Die Spannung am Leitungsende ist tiefer als am Leitungsanfang.
+    \end{itemize}
 
 \subsection{Praxis}
-
-\begin{itemize}
-    \item \textbf{Kabel} ausschließlich \textbf{unternatürlich} betrieben
-    \item \textbf{Freileitungen} meistens \textbf{unternatürlich} betrieben, in seltenen Fällen \textbf{übernatürlich}
-\end{itemize}
-
+    \begin{itemize}
+        \item \textbf{Kabel} ausschließlich \textbf{unternatürlich} betrieben
+        \item \textbf{Freileitungen} meistens \textbf{unternatürlich} betrieben, in seltenen Fällen \textbf{übernatürlich}
+    \end{itemize}
 
 \subsection{Leerlauf}
-
-\begin{itemize}
-    \item Extremfall der unternatürlichen Belastung
-    \item Leitung verhält sich wie Kapazität
-    \item Spannung steigt entlang der Leitung an
-    \item Spannungsüberhöhung am Leitungsende (Ferranti Effekt)
-\end{itemize}
-
-\vspace{0.15cm}
-
-\includegraphics[width=0.55\columnwidth, align=c]{images/Leerlauf.png}
-
-\vspace{0.15cm}
+    \begin{minipage}[t]{0.59\columnwidth}
+        \begin{itemize}
+            \item Extremfall der unternatürlichen Belastung
+            \item Leitung verhält sich wie Kapazität
+            \item Spannung steigt entlang der Leitung an
+            \item Spannungsüberhöhung am Leitungsende 
+            \item[] (Ferranti Effekt)
+        \end{itemize}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.4\columnwidth}
+        % \vspace{0.1cm}
+        \centering \vspace{-0.7\baselineskip}
+        \includegraphics[width=0.9\columnwidth, align=c]{images/Leerlauf.png}
+    
+        % \vspace{0.1cm}
+    \end{minipage}
 
 
 \subsection{Kurzschluss}
-
-\begin{itemize}
-    \item Extremfall der übernatürlichen Belastung
-    \item Leitung verhält sich wie Induktivität
-    \item Spannung sinkt entlang der Leitung ab
-\end{itemize}
-
+    \begin{itemize}
+        \item Extremfall der übernatürlichen Belastung
+        \item Leitung verhält sich wie Induktivität
+        \item Spannung sinkt entlang der Leitung ab
+    \end{itemize}
 
 \subsection{Spannungsabfall entlang einer Leitung}
+    \begin{minipage}[t]{0.55\columnwidth}
+        \includegraphics[width=0.95\columnwidth, align=c]{images/Spannungsabfall_entlang_einer_Leitung.png}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.4\columnwidth}
+        % \centering \vspace{-0.7\baselineskip}
+        \resizebox{!}{0.3\textwidth}{\input{tikz/57_Spannungsabfall-Leitung.tex}\unskip}
+    \end{minipage}
 
-\includegraphics[width=0.75\columnwidth, align=c]{images/Spannungsabfall_entlang_einer_Leitung.png}
 
 \subsubsection{Phasenstrom durch Leitung}
+    $
+    \boxed{
+    I_{Phase} = \frac{U_{Phase}}{Z_{Phase}}
+    }
+    $
 
-$\boxed{
-I_Phase = \frac{U_Phase}{Z_Phase}}$\\
-
-
-\newcolumn
+    \vspace{0.1cm}
