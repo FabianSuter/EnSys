@@ -1,4 +1,4 @@
-# Zusammenfassung Elektrochemie
+# Zusammenfassung EnSys
 ## Modulinfo
 
 Frühlingssemester 2026
@@ -11,7 +11,7 @@ OST Rapperswil
 
 Die Zusammenfassung wurde sorgfältig erstellt, es kann allerdings keine Garantie für den Inhalt gegeben werden. 
 Gefundene Fehler bitte per Issue melden.
-Diese Zusammenfassung entstand ursprünglich von Luca Loop und Ramon Schläpfer.
+Diese Zusammenfassung entstand ursprünglich von [Luca Loop und Ramon Schläpfer](https://github.com/Luca-ET/EnSys).
 
 ## Quellen
 
