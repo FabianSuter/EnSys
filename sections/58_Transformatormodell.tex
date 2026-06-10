@@ -1,53 +1,50 @@
 \section{Transformator}
 \subsection{Idealer Transformator}
-    \begin{minipage}[t]{0.25\columnwidth}
-        \includegraphics[width=0.95\columnwidth, align=c]{images/Idealer_Transformator_1.png}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{0.24\columnwidth}
-        $
-        \boxed{
-            \frac{\underline{U_1}}{\underline{U_2}} = \frac{\underline{I_2}}{\underline{I_1}} = \frac{N_1}{N_2} =t
-        }
-        $
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{0.23\columnwidth}
-        $
-        \boxed{
-            U_n = \omega \cdot N_n \cdot \frac{\phi}{\sqrt{2}}
-        }
-        $
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{0.25\columnwidth}
-        \vspace{-0.5cm}
+    \begin{minipage}[t]{0.3\columnwidth}
+        \centering \vspace{-0.7\baselineskip}
+        \includegraphics[width=0.9\columnwidth]{images/Idealer_Transformator_1.png}
+
+        $\boxed{\frac{\underline{U_1}}{\underline{U_2}} = \frac{\underline{I_2}}{\underline{I_1}} = \frac{N_1}{N_2} =t}$
+
+        $\boxed{U_n = \omega \cdot N_n \cdot \frac{\phi}{\sqrt{2}}}$
+
         $\boxed{\phi = B \cdot A_{FE}}$
         
         $\boxed{A_{FE}=\frac{\pi D\cdot k_a \cdot f_{FE}}{4}}$
-        % \vspace{-1cm}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.69\columnwidth}
+        \centering \vspace{-0.7\baselineskip}
+        \begin{tabular}{@{} l p{4cm} l @{}}
+            $[\underline{U_1}]$     & Primärspannung \dotfill               & $\mathrm{V}$ \\
+            $[\underline{I_1}]$     & Primärstrom \dotfill                  & $\mathrm{A}$ \\
+            $[N_1]$                 & Anz. Primärwindungen \dotfill         & $-$ \\
+            $[\underline{U_2}]$     & Sekundärspannung \dotfill             & $\mathrm{V}$\\
+            $[\underline{I_2}]$     & Sekundärstrom \dotfill                & $\mathrm{A}$\\
+            $[N_2]$                 & Anz. Sekundärwidungen \dotfill        & $n$ \\
+            $[N_n]$                 & Anz. Windungen an Ausgang n \dotfill  & $n$ \\
+            $[\phi]$                & Magnetischer Fluss \dotfill           & $\mathrm{Wb}$ \\
+            $[B]$                   & Magnetische Flussdichte \dotfill      & $\mathrm{T}$ \\
+            $[A_{FE}]$              & Wirksamer Eisenquerschnitt \dotfill   & $\mathrm{m^2}$ \\
+            $[D]$                   & Durchmesser \dotfill                  & $\mathrm{m}$ \\
+            $[k_{a}]$               & Kernquerschnitt \dotfill              & $-$ \\
+            $[f_{FE}]$              & Eisenfüllfaktor \dotfill              & $-$ \\
+        \end{tabular}
     \end{minipage}
     % \hfill
+    % \begin{minipage}[t]{0.23\columnwidth}
+    % \end{minipage}
+    % \hfill
+    % \begin{minipage}[t]{0.25\columnwidth}
+    %     \vspace{-0.5cm}
+    %     % \vspace{-1cm}
+    % \end{minipage}
+    % \hfill
 
-    \begin{tabular}{@{} l p{6cm} l @{}}
-        $[\underline{U_1}]$     & Primärspannung \dotfill               & $\mathrm{V}$ \\
-        $[\underline{I_1}]$     & Primärstrom \dotfill                  & $\mathrm{A}$ \\
-        $[N_1]$                 & Anz. Primärwindungen \dotfill         & $-$ \\
-        $[\underline{U_2}]$     & Sekundärspannung \dotfill             & $\mathrm{V}$\\
-        $[\underline{I_2}]$     & Sekundärstrom \dotfill                & $\mathrm{A}$\\
-        $[N_2]$                 & Anz. Sekundärwidungen \dotfill        & $n$ \\
-        $[N_n]$                 & Anz. Windungen an Ausgang n \dotfill  & $n$ \\
-        $[\phi]$                & Magnetischer Fluss \dotfill           & $\mathrm{Wb}$ \\
-        $[B]$                   & Magnetische Flussdichte \dotfill      & $\mathrm{T}$ \\
-        $[A_{FE}]$              & Wirksamer Eisenquerschnitt \dotfill   & $\mathrm{m^2}$ \\
-        $[D]$                   & Durchmesser \dotfill                  & $\mathrm{m}$ \\
-        $[k_{a}]$               & Kernquerschnitt \dotfill              & $-$ \\
-        $[f_{FE}]$              & Eisenfüllfaktor \dotfill              & $-$ \\
-    \end{tabular}
 
 \subsection{Verluste im Transformator}
 
-\includegraphics[width=0.98\columnwidth, align=c]{images/TrafoBild.png}
+\includegraphics[width=0.98\columnwidth]{images/TrafoBild.png}
 
 \vspace{0.15cm}
 \begin{minipage}[t]{0.4\columnwidth}
@@ -81,111 +78,106 @@
     \item Für $\mathbf{L_h}$ und $\mathbf{R_{Fe}}$ $\Rightarrow$ Leerlauf
     \item Für $\mathbf{R_1}$, $\mathbf{L_{\sigma1}}$, $\mathbf{R_2'}$, $\mathbf{L_{\sigma_2}'}$ $\Rightarrow$ Kurzschluss
 \end{itemize}
+
 \subsection{Praktisches Transformatormodell}
-
-\includegraphics[width=0.98\columnwidth, align=c]{images/Praktisches_Transformatorbild_2.png}
-
-\vspace{0.15cm}
-
-\begin{itemize}
-    \item \( Z_h \gg Z_t \Rightarrow Z_h \) vernachlässigen
-    \item \( I_h \approx \,\%\!1 \) von \( I_t \) bei großen Transformatoren
-    \item Kernverluste
-\end{itemize}
-
+    \begin{minipage}[t]{0.6\columnwidth}
+        \centering \vspace{-0.7\baselineskip}
+        \includegraphics[width=0.9\linewidth]{images/Praktisches_Transformatorbild_2.png}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.39\columnwidth}
+        \begin{itemize}
+            \item \( Z_h \gg Z_t \Rightarrow Z_h \) vernachlässigen
+            \item \( I_h \approx \,\%\!1 \) von \( I_t \) bei großen Transformatoren
+            \item Kernverluste
+        \end{itemize}
+    \end{minipage}
 
 \subsection{Umrechnung von Impedanzen}
-
-
-\begin{minipage}[t]{0.48\columnwidth}
-    \includegraphics[width=0.98\columnwidth, align=c]{images/Umrechnung_Impedanzen_1.png}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.48\columnwidth}
-    \includegraphics[width=0.98\columnwidth, align=c]{images/Umrechnung_Impedanzen_2.png}
-\end{minipage}
-
-\vspace{0.15cm}
-
-$
-    \boxed{\frac{\underline{Z_1}}{\underline{Z_2}} = t^2}
-$
+    \begin{minipage}[t]{0.39\columnwidth}
+        \centering \vspace{-0.7\baselineskip}
+        \includegraphics[width=0.9\columnwidth]{images/Umrechnung_Impedanzen_1.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.39\columnwidth}
+        \centering \vspace{-0.7\baselineskip}
+        \includegraphics[width=0.9\columnwidth]{images/Umrechnung_Impedanzen_2.png}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.19\columnwidth}
+        \centering \vspace{-0.7\baselineskip}
+        $\boxed{\frac{\underline{Z_1}}{\underline{Z_2}} = t^2}$
+    \end{minipage}
 
 \subsection{Leerlauf / Kurzschluss}
+    \begin{minipage}[t]{0.46\columnwidth}
+        \textbf{Leerlauf}
 
-\textbf{Leerlauf}\\
-Nur $L_h$ und $R_{FE}$ müssen beachtet werden.\\
-$\boxed{\underline{I}_{1} = \underline{I}_{R_{FE}}+\underline{I}_{L_{h}}}$ $\Rightarrow$ \boxed{|\underline{I}_{1}| = \sqrt{|\underline{I}_{R_{Fe}}|^2+|\underline{I}_{L_{h}}}|^2}\\
-\textbf{Kurzschluss}\\
-$L_h$ und $R_{FE}$ nicht beachten $\Rightarrow$ haben praktisch keinen Einfluss.\\
-Kurzschlussspannung $U_k = x\%$ von Nennspannung $\underline{U}_1$
-so dass bei Kurzschluss Nennstrom fliesst, $P_{nenn(R_1+R_2)}=I_{1n}\cdot U_{1n(R_1+R_2)}=P_{ks(R_1+R_2)}$ Kupferverl. bleiben gleich.
+        Nur $L_h$ und $R_{FE}$ müssen beachtet werden.
+
+        $\boxed{\underline{I}_{1} = \underline{I}_{R_{FE}}+\underline{I}_{L_{h}}}$ 
+
+        $\qquad \Downarrow$ 
+
+        $\boxed{|\underline{I}_{1}| = \sqrt{|\underline{I}_{R_{Fe}}|^2+|\underline{I}_{L_{h}}}|^2}$
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.52\columnwidth}
+        \textbf{Kurzschluss}
+
+        $L_h$ und $R_{FE}$ nicht beachten $\Rightarrow$ haben praktisch keinen Einfluss.
+        
+        Kurzschlussspannung $U_k = x\%$ von Nennspannung $\underline{U}_1$
+        so dass bei Kurzschluss Nennstrom fliesst, $P_{nenn(R_1+R_2)}=I_{1n}\cdot U_{1n(R_1+R_2)}=P_{ks(R_1+R_2)}$ Kupferverl. bleiben gleich.
+    \end{minipage}
 
 \subsection{Dreiphasentransformatoren}
+    \begin{itemize}
+        \item Verschaltung der drei Phasenwicklungen auf Primär- und Sekundärseite wirkt sich auf Übersetzungsverhältnis aus.
+        \item Parallelschaltung nur möglich, wenn sekundärs. gleiche „Zahl“ (Bsp. Yy0 und Dd0)
+        \item Amplitude und Phasenlage der Spannung können verändert werden.
+        \item Übersetzungsverhältnis wird komplex: \( t \)
+    \end{itemize}
 
-\begin{itemize}
-    \item Verschaltung der drei Phasenwicklungen auf Primär- und Sekundärseite wirkt sich auf Übersetzungsverhältnis aus.
-    \item Parallelschaltung nur möglich, wenn sekundärseitig gleiche „Zahl“ (Bsp. Yy0 und Dd0)
-    \item Amplitude und Phasenlage der Spannung können verändert werden.
-    \item Übersetzungsverhältnis wird komplex: \( t \)
-\end{itemize}
-
-\vspace{0.15cm}
 \subsection{Schaltgruppen}
+    \begin{minipage}[t]{0.38\columnwidth}
+        \myul{\textbf{Mögliche Schaltungen}}
 
-\begin{minipage}[c]{0.48\columnwidth}
-    \myul{\textbf{Mögliche Schaltungen}}\\
-\end{minipage}
-\hfill
-\begin{minipage}[c]{0.48\columnwidth}
-    \myul{\textbf{Bezeichnung}}\\
-\end{minipage}
+        \begin{itemize}
+            \item Y \dots\ Sternschaltung
+            \item D \dots\ Dreieck-Schaltung
+            \item Z \dots\ „Zick-zack“ (Nur US)
+        \end{itemize}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.61\columnwidth}
+        \myul{\textbf{Bezeichnung}}
 
-\begin{minipage}[c]{0.48\columnwidth}
-    \begin{itemize}
-        \item Y \dots\ Sternschaltung
-        \item D \dots\ Dreieck-Schaltung
-        \item Z \dots\ „Zick-zack“ (Nur US)
-    \end{itemize}
-\end{minipage}
-\hfill
-\begin{minipage}[c]{0.48\columnwidth}
-    \begin{itemize}
-        \item 1. Buchstabe (groß): \\
-        Schaltung Oberspannungsseite (OS)
-        \item 2. Buchstabe (klein): \\
-        Schaltung Unterspannungsseite (US)
-        \item Zahl (n) : Phasendrehung/Phasenverschiebung gegenüber OS: $n\cdot\angle30$
-    \end{itemize}
-\end{minipage}
+        \begin{itemize}
+            \item \textit{1. Buchstabe (groß):} Oberspannungsseite (OS)
+            \item \textit{2. Buchstabe (klein):} Unterspannungsseite (US)
+            \item \textit{Zahl (n):} Phasendr./Phasenversch. gg. OS: $n\cdot\angle30$
+        \end{itemize}
+    \end{minipage}
 
-\includegraphics[width=0.98\columnwidth, align=c]{images/Ansteuerung.png}\\
+    \begin{center}
+        \includegraphics[width=0.75\columnwidth]{images/Ansteuerung.png}
+    \end{center}
 
-\begin{minipage}[c]{1\columnwidth}
-    \myul{\textbf{Übersetzungsverhältnisse:}}\\
+\begin{center}
+    \subsubsection{Übersetzungsverhältnisse}
+
     \begin{tabular}{c l c}
-        Schaltgruppe & Verhälnis\\
-        \hline
-        Yy0 & $U_{1n} = t\cdot U_{2n}$ &\\
-         & $U_{1} = t\cdot U_{2}$ &\\
-        \hline
-        Dy5 & $U_{1n} = \frac{t\cdot U_{2n}}{\sqrt{3}}$&$N_{1n}=\sqrt{3}\frac{U_{1n}\sqrt{2}}{\omega\,\phi} $\\
-        \hline
-        Yd5 & $U_{1n} = t\cdot U_{2n}\cdot \sqrt{3}$&$N_{1n}=\frac{U_{1n}\sqrt{2}}{\omega\,\phi\sqrt{3}} $\\
-        \hline
-        Yz5 & $U_{1n} = \frac{\sqrt{3}\cdot}{2}U_{2n}$&\\
+        \textbf{Schaltgruppe} & \textbf{Verhältnis}\\
+        \toprule[.13em]
+        Yy0 & $U_{1n} = t\cdot U_{2n}$                  & \\
+            & $U_{1} = t\cdot U_{2}$                    & \\
+        \midrule
+        Dy5 & $U_{1n} = \frac{t\cdot U_{2n}}{\sqrt{3}}$ & $N_{1n}=\sqrt{3}\frac{U_{1n}\sqrt{2}}{\omega\,\phi} $\\
+        \midrule
+        Yd5 & $U_{1n} = t\cdot U_{2n}\cdot \sqrt{3}$    & $N_{1n}=\frac{U_{1n}\sqrt{2}}{\omega\,\phi\sqrt{3}} $\\
+        \midrule
+        Yz5 & $U_{1n} = \frac{\sqrt{3}\cdot}{2}U_{2n}$  & \\
+        \bottomrule[.13em]
     \end{tabular}
-\end{minipage}
-
-
-
-
-
-
-
-
-
-
-
-
-
+\end{center}

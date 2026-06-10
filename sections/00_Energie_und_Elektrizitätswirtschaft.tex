@@ -2,18 +2,16 @@
 
 \subsection{Masseinheiten}
 
-\begin{tabular}{|l|c|l|}
-    \hline
-    \textbf{Masseinheit}    & \textbf{Zeichen}  & \textbf{Umrechnung} \\
-    \hline
-    Watt                    & (W)               & \\ 
-    Pferdestärke            & (PS)              & 1 PS $\approx$ 735 W \\ 
-    \hline
-    Joule                   & (J)               & \\ 
-    Wattsekunde             & (Ws)              & 1 Ws = 1 J \\ 
-    Kilowattstunde          & (kWh)             & 1 kWh = 3 600 000 J = 3,6 MJ \\ 
-    Kalorie                 & (cal)             & 1 cal$_{IT}$ = 4,1868 J \\ 
-    \hline
+\begin{tabular}{lcl}
+    \toprule[.13em]
+    \textbf{Masseinheit} & \textbf{Zeichen}         & \textbf{Umrechnung} \\ \midrule
+    Watt                 & \unit{\watt}             & \\ 
+    Pferdestärke         & \unit{\PS}               & 1 \unit{\PS} $\approx$ 735 \unit{\watt} \\ 
+    Joule                & \unit{\joule}            & \\ 
+    Wattsekunde          & \unit{\watt\second}      & 1 \unit{\watt\second} = 1 \unit{\joule} \\ 
+    Kilowattstunde       & \unit{\kilo\watt\hour}   & 1 \unit{\kilo\watt\hour} = 3 600 000 \unit{\joule} = 3,6 \unit{\mega\joule} \\ 
+    Kalorie              & \unit{\cal}              & 1 \unit{\cal}$_{IT}$ = 4,1868 \unit{\joule} \\ 
+    \bottomrule[.13em]
 \end{tabular}
 
 
@@ -49,156 +47,226 @@
 \subsection{Energien}
 
 \subsubsection{Potentielle Energie $W_{\text{pot}}$}
-$\boxed{W_{\text{pot}} = m \cdot g \cdot h}$ \quad $g = 9{,}81\,\mathrm{\frac{m}{s^2}}$
+    \begin{minipage}[t]{0.29\columnwidth}\vspace*{-2mm}
+        $\boxed{W_{\text{pot}} = m \cdot g \cdot h}$ 
 
-\vspace{0.15cm}
-
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
-    $[W_{\text{pot}}]$  & Potentielle Energie   \dotfill & $\mathrm{Ws = Nm = J}$ \\
-    $[m]$               & Masse                 \dotfill & $\mathrm{kg}$ \\
-    $[g]$               & Erdbeschleunigung     \dotfill & $\mathrm{\frac{m}{s^2}}$ \\
-    $[h]$               & Höhenunterschied      \dotfill & $\mathrm{m}$ \\
-\end{tabular}
+        \medskip
+        
+        $g = 9{,}81\,\mathrm{\frac{m}{s^2}}$
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.7\columnwidth}\vspace*{-2mm}
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{@{} l p {3.5cm} l @{}}
+            $[W_{\text{pot}}]$  & Potentielle Energie   \dotfill & $\mathrm{Ws}$ \\
+            $[m]$               & Masse                 \dotfill & $\mathrm{kg}$ \\
+            $[g]$               & Erdbeschleunigung     \dotfill & $\mathrm{\frac{m}{s^2}}$ \\
+            $[h]$               & Höhenunterschied      \dotfill & $\mathrm{m}$ \\
+        \end{tabular}
+    \end{minipage}
 
 \subsubsection{Kinetische Energie $W_{\text{kin}}$}
-$\boxed{W_{\text{kin}} = \frac{1}{2} \cdot m \cdot v^2}$
-
-\vspace{0.15cm}
-
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
-    $[W_{\text{kin}}]$  & Kinetische Energie   \dotfill & $\mathrm{Ws = Nm = J}$ \\
-    $[m]$               & Masse                \dotfill & $\mathrm{kg}$ \\
-    $[v]$               & Geschwindigkeit      \dotfill & $\mathrm{\frac{m}{s}}$ \\
-\end{tabular}
+    \begin{minipage}[t]{0.29\columnwidth}\vspace*{-2mm}
+        $\boxed{W_{\text{kin}} = \frac{1}{2} \cdot m \cdot v^2}$
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.7\columnwidth}\vspace*{-2mm}
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{@{} l p {3.5cm} l @{}}
+            $[W_{\text{kin}}]$  & Kinetische Energie   \dotfill & $\mathrm{Ws}$ \\
+            $[m]$               & Masse                \dotfill & $\mathrm{kg}$ \\
+            $[v]$               & Geschwindigkeit      \dotfill & $\mathrm{\frac{m}{s}}$ \\
+        \end{tabular}
+    \end{minipage}
 
 \subsubsection{Federenergie $W_{\text{F}}$}
-$\boxed{W_{\text{F}} = \frac{1}{2} \cdot F \cdot s}$
-
-\vspace{0.15cm}
-
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
-    $[W_{\text{F}}]$  & Federenergie                \dotfill & $\mathrm{Ws = Nm = J}$ \\
-    $[F]$             & Kraft                       \dotfill & $\mathrm{N = kg \cdot \frac{m}{s^2}}$ \\
-    $[s]$             & Verschiebung (Auslenkung)   \dotfill & $\mathrm{m}$ \\
-\end{tabular}
+    \begin{minipage}[t]{0.29\columnwidth}\vspace*{-2mm}
+        $\boxed{W_{\text{F}} = \frac{1}{2} \cdot F \cdot s}$
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.7\columnwidth}\vspace*{-2mm}
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{@{} l p {3.5cm} l @{}}
+            $[W_{\text{F}}]$  & Federenergie                \dotfill & $\mathrm{Ws}$ \\
+            $[F]$             & Kraft                       \dotfill & $\mathrm{N = kg \cdot \frac{m}{s^2}}$ \\
+            $[s]$             & Verschiebung (Auslenkung)   \dotfill & $\mathrm{m}$ \\
+        \end{tabular}
+    \end{minipage}
 
 \subsubsection{Kondensatorenergie $W_{\text{C}}$}
-$\boxed{W_{\text{C}} = \frac{1}{2} \cdot C \cdot U^2}$
-
-\vspace{0.15cm}
-
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
-    $[W_{\text{C}}]$  & Kondensatorenergie    \dotfill & $\mathrm{Ws = Nm = J}$ \\
-    $[C]$             & Kapazität             \dotfill & $\mathrm{F = \frac{As}{V}}$ \\
-    $[U]$             & Spannung              \dotfill & $\mathrm{V}$ \\
-\end{tabular}
+    \begin{minipage}[t]{0.29\columnwidth}\vspace*{-2mm}
+        $\boxed{W_{\text{C}} = \frac{1}{2} \cdot C \cdot U^2}$
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.7\columnwidth}\vspace*{-2mm}
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{@{} l p {3.5cm} l @{}}
+            $[W_{\text{C}}]$  & Kondensatorenergie    \dotfill & $\mathrm{Ws}$ \\
+            $[C]$             & Kapazität             \dotfill & $\mathrm{F = \frac{As}{V}}$ \\
+            $[U]$             & Spannung              \dotfill & $\mathrm{V}$ \\
+        \end{tabular}
+    \end{minipage}
 
 \subsubsection{Induktivitätsenergie $W_{\text{L}}$}
-$\boxed{W_{\text{L}} = \frac{1}{2} \cdot L \cdot I^2}$
-
-\vspace{0.15cm}
-
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
-    $[W_{\text{L}}]$  & Induktivitätsenergie  \dotfill & $\mathrm{Ws = Nm = J}$ \\
-    $[L]$             & Induktivität          \dotfill & $\mathrm{H = \frac{Vs}{A}}$ \\
-    $[I]$             & Stromstärke           \dotfill & $\mathrm{A}$ \\
-\end{tabular}
+    \begin{minipage}[t]{0.29\columnwidth}\vspace*{-2mm}
+        $\boxed{W_{\text{L}} = \frac{1}{2} \cdot L \cdot I^2}$
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.7\columnwidth}\vspace*{-2mm}
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{@{} l p {3.5cm} l @{}}
+            $[W_{\text{L}}]$  & Induktivitätsenergie  \dotfill & $\mathrm{Ws}$ \\
+            $[L]$             & Induktivität          \dotfill & $\mathrm{H = \frac{Vs}{A}}$ \\
+            $[I]$             & Stromstärke           \dotfill & $\mathrm{A}$ \\
+        \end{tabular}
+    \end{minipage}
 
 \subsubsection{Batterieenergie $W_{\text{bat}}$}
-$\boxed{W_{\text{bat}} = Q \cdot U}$
+    \begin{minipage}[t]{0.29\columnwidth}\vspace*{-2mm}
+        $\boxed{W_{\text{bat}} = Q \cdot U}$
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.7\columnwidth}\vspace*{-2mm}
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{@{} l p {3.5cm} l @{}}
+            $[W_{\text{bat}}]$  & Batterieenergie       \dotfill & $\mathrm{Ws}$ \\
+            $[Q]$               & Elektrische Ladung    \dotfill & $\mathrm{C = As}$ \\
+            $[U]$               & Spannung              \dotfill & $\mathrm{V}$ \\
+        \end{tabular}
+    \end{minipage}
 
-\vspace{0.15cm}
-
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
-    $[W_{\text{bat}}]$  & Batterieenergie       \dotfill & $\mathrm{Ws = Nm = J}$ \\
-    $[Q]$               & Elektrische Ladung    \dotfill & $\mathrm{C = As}$ \\
-    $[U]$               & Spannung              \dotfill & $\mathrm{V}$ \\
-\end{tabular}
-
-\newcolumn
 \subsubsection{Thermische Energie $W_{\text{th}}$}
-$\boxed{W_{\text{th}} = m \cdot c \cdot (\vartheta_1 - \vartheta_2)}$ \quad $c_{\text{Wasser}} = 4187\,\mathrm{\frac{J}{kg \cdot K}}$
+    \begin{minipage}[t]{0.29\columnwidth}\vspace*{-2mm}
+        $\boxed{W_{\text{th}} = m \cdot c \cdot (\vartheta_1 - \vartheta_2)}$ 
 
-\vspace{0.15cm}
-
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
-    $[W_{\text{th}}]$       & Thermische Energie          \dotfill & $\mathrm{Ws = Nm = J}$ \\
-    $[m]$                   & Masse                       \dotfill & $\mathrm{kg}$ \\
-    $[c]$                   & Spezifische Wärmekapazität  \dotfill & $\mathrm{\frac{J}{kg \cdot K}}$ \\
-    $[\vartheta_1]$         & Anfangstemperatur           \dotfill & $^\circ\mathrm{C}$ oder $\mathrm{K}$ \\
-    $[\vartheta_2]$         & Endtemperatur               \dotfill & $^\circ\mathrm{C}$ oder $\mathrm{K}$ \\
-\end{tabular}
-
+        \medskip
+        
+        $c_{\text{Wasser}} = 4187\,\mathrm{\frac{J}{kg \cdot K}}$
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.7\columnwidth}\vspace*{-2mm}
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{@{} l p {3.5cm} l @{}}
+            $[W_{\text{th}}]$       & Thermische Energie          \dotfill & $\mathrm{Ws}$ \\
+            $[m]$                   & Masse                       \dotfill & $\mathrm{kg}$ \\
+            $[c]$                   & Spezifische Wärmekapazität  \dotfill & $\mathrm{\frac{J}{kg \cdot K}}$ \\
+            $[\vartheta_1]$         & Anfangstemperatur           \dotfill & $^\circ\mathrm{C}$ oder $\mathrm{K}$ \\
+            $[\vartheta_2]$         & Endtemperatur               \dotfill & $^\circ\mathrm{C}$ oder $\mathrm{K}$ \\
+        \end{tabular}
+    \end{minipage}
 
 \subsubsection{Spezifische Energie $e$}
-$\boxed{e = \frac{W}{m}}$ \quad $\boxed{W = e \cdot m}$
+    \begin{minipage}[t]{0.29\columnwidth}\vspace*{-2mm}
+        $\boxed{e = \frac{W}{m}}$ \quad $\boxed{W = e \cdot m}$
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.7\columnwidth}\vspace*{-2mm}
+        \renewcommand{\arraystretch}{1.2}
+        \begin{tabular}{@{} l p {3.5cm} l @{}}
+            $[e]$  & Spezifische Energie    \dotfill & $\mathrm{\frac{J}{kg}}$ \\
+            $[W]$  & Gesamtenergie          \dotfill & $\mathrm{J}$ \\
+            $[m]$  & Masse                  \dotfill & $\mathrm{kg}$ \\
+        \end{tabular}
+    \end{minipage}
 
-\vspace{0.15cm}
-
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
-    $[e]$  & Spezifische Energie    \dotfill & $\mathrm{\frac{J}{kg}}$ \\
-    $[W]$  & Gesamtenergie          \dotfill & $\mathrm{J}$ \\
-    $[m]$  & Masse                  \dotfill & $\mathrm{kg}$ \\
-\end{tabular}
-
+\newcolumn
 \subsubsection{Rotationsenergie $W_{\text{rot}}$}
-$\boxed{W_{\text{rot}} = \frac{1}{2} \cdot J \cdot \omega^2 }$ \quad $\boxed{W_{\text{rot}} = 2 \cdot J \cdot \pi^2 \cdot f^2 }$ \quad $\boxed{W_{\text{rot}} = \frac{J \cdot \pi^2 \cdot n^2}{1800}}$
+    $\boxed{W_{\text{rot}} = \frac{1}{2} \cdot J \cdot \omega^2  = 2 \cdot J \cdot \pi^2 \cdot f^2 = \frac{J \cdot \pi^2 \cdot n^2}{1800} }$
 
-\vspace{0.15cm}
+    \medskip
 
-$\boxed{\omega = 2 \cdot \pi \cdot f}$ \quad $\boxed{f = \frac{n}{60}}$ \quad $\boxed{n = f \cdot 60}$
+    $\boxed{\omega = 2 \cdot \pi \cdot f}$ \quad $\boxed{f = \frac{n}{60}}$ \quad $\boxed{n = f \cdot 60}$
 
-\vspace{0.15cm}
+    \renewcommand{\arraystretch}{1.2}
+    \begin{tabular}{@{} l p {5cm} l @{}}
+        $[W_{\text{rot}}]$  & Rotationsenergie                      \dotfill & $\mathrm{Ws = Nm = J}$ \\
+        $[J]$               & Trägheitsmoment                       \dotfill & $\mathrm{kg \cdot m^2}$ \\
+        $[\omega]$          & Winkelgeschwindigkeit                 \dotfill & $\mathrm{\frac{rad}{s}}$ \\
+        $[f]$               & Drehfrequenz, Umdrehungen pro Sekunde \dotfill & $\mathrm{\frac{1}{s} = \frac{U}{s}}$ \\
+        $[n]$               & Umdrehungen pro Minute                \dotfill & $\mathrm{\frac{1}{min} = \frac{U}{min}}$ \\
+    \end{tabular}
 
-\renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {5cm} l @{}}
-    $[W_{\text{rot}}]$  & Rotationsenergie                      \dotfill & $\mathrm{Ws = Nm = J}$ \\
-    $[J]$               & Trägheitsmoment                       \dotfill & $\mathrm{kg \cdot m^2}$ \\
-    $[\omega]$          & Winkelgeschwindigkeit                 \dotfill & $\mathrm{\frac{rad}{s}}$ \\
-    $[f]$               & Drehfrequenz, Umdrehungen pro Sekunde \dotfill & $\mathrm{\frac{1}{s} = \frac{U}{s}}$ \\
-    $[n]$               & Umdrehungen pro Minute                \dotfill & $\mathrm{\frac{1}{min} = \frac{U}{min}}$ \\
-\end{tabular}
-
-\vspace{0.15cm}
-
-\myul{\textbf{Massenträgheitsmoment $J$}}\\
-
-\vspace{0.15cm}
-
-\includegraphics[width=0.75\linewidth]{images/Physik_1-Mechanik.png}
+\subsubsection{Massenträgheitsmoment $J$}
+    % \includegraphics[width=0.75\linewidth]{images/Physik_1-Mechanik.png}
+    \begin{tabular}{|c|c|c|} \hline
+        \multicolumn{2}{|l|}{\textbf{Körper}} & \textbf{Trägheitsmoment} \\ \hline
+        & \multirow{5}{8em}{\includegraphics[width=0.9\linewidth]{images/massentraegheitsmomente-vollz.png}} & \\
+        Vollzylinder / & & \\
+        & & $ \dfrac{m r^2}{2} $\\
+        Scheibe & & \\
+        & & \\ \hline
+        & \multirow{5}{8em}{\includegraphics[width=0.9\linewidth]{images/massentraegheitsmomente-hohlz.png}} & \\
+        & & \\
+        Hohlzylinder & & $ \dfrac{m (r^2_a  + r^2_i)}{2} $\\
+        & & \\
+        & & \\ \hline
+        & \multirow{5}{8em}{\includegraphics[width=0.9\linewidth]{images/massentraegheitsmomente-kugel.png}} & \\
+        & & \\
+        Kugel & & $ \dfrac{2}{5} m r^2 $\\
+        & & \\
+        & & \\ \hline
+        & \multirow{5}{8em}{\includegraphics[width=0.9\linewidth]{images/massentraegheitsmomente-quader.png}} & \\
+        & & \\
+        Quader & & $ \dfrac{m (a^2  + b^2)}{12} $\\
+        & & \\
+        & & \\ \hline
+        & \multirow{5}{8em}{\includegraphics[width=0.9\linewidth]{images/J_massepunkt.png}} & \\
+        & & \\
+        Massenpunkt & & $ m r^2 $\\
+        & & \\
+        & & \\ \hline
+        & \multirow{5}{8em}{\includegraphics[width=0.9\linewidth]{images/J_duenner_stab_mitte.png}} & \\
+        & & \\
+        Dünner Stab & & $ \dfrac{1}{12}ml^2 $\\
+        & & \\
+        & & \\ \hline
+    \end{tabular}
 
 \subsection{Vor- und Nachteile Elektroenergie}
+    \begin{minipage}[t]{0.49\columnwidth}
+        \textbf{Vorteile}
+        \begin{itemize}
+            \item einfach zu verteilen
+            \item beliebig klein dosierbar
+            \item gut regulierbar
+            \item Einfach in andere Energieformen wandelbar
+            \item problemlos und sauber in der Anwendung (keine Emissionen)
+            \item Vielfältig einsetzbar
+        \end{itemize}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[t]{0.49\columnwidth}
+        \textbf{Nachteile}
+        \begin{itemize}
+            \item leitungsgebunden
+            \item Gleichzeitigkeit von Erzeugung \& Bedarf
+            \item nicht direkt aus der Natur gewinnbar
+            \item Speicherung ist aufwendig
+        \end{itemize}
+    \end{minipage}
 
-\textbf{Vorteile}\\
-\begin{itemize}
-    \item einfach zu verteilen
-    \item beliebig klein dosierbar
-    \item gut regulierbar
-    \item Einfach in andere Energieformen wandelbar
-    \item problemlos und sauber in der Anwendung (keine Emissionen)
-    \item Vielfältig einsetzbar
-\end{itemize}
+% \textbf{Vorteile}\\
+% \begin{itemize}
+%     \item einfach zu verteilen
+%     \item beliebig klein dosierbar
+%     \item gut regulierbar
+%     \item Einfach in andere Energieformen wandelbar
+%     \item problemlos und sauber in der Anwendung (keine Emissionen)
+%     \item Vielfältig einsetzbar
+% \end{itemize}
 
-\textbf{Nachteile}\\
-\begin{itemize}
-    \item leitungsgebunden
-    \item Gleichzeitigkeit von Erzeugung und Bedarf
-    \item kann nicht direkt aus der Natur gewonnen werden
-    \item Speicherung ist aufwendig
-\end{itemize}
+% \textbf{Nachteile}\\
+% \begin{itemize}
+%     \item leitungsgebunden
+%     \item Gleichzeitigkeit von Erzeugung und Bedarf
+%     \item kann nicht direkt aus der Natur gewonnen werden
+%     \item Speicherung ist aufwendig
+% \end{itemize}
 
 \subsection{Anteil Elektrische Energie}
 In der Schweiz beträgt der Anteil Elektrischer Energie bei rund bei rund 25\% bis 30\% des gesamten Endenergieverbrauchs.
 
-\newcolumn
+% \newcolumn
 \subsection{Leistung}
 
 \subsubsection{Rotationsleistung $P_{\text{rot}}$}
@@ -207,7 +275,7 @@ $\boxed{P = M \cdot \omega}$ \quad $\boxed{P = M \cdot 2 \cdot \pi \cdot f }$ \q
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[P_{\text{rot}}]$ & Rotationsleistung        \dotfill & $\mathrm{W = \frac{J}{s} = \frac{Nm}{s}}$ \\
     $[M]$              & Drehmoment               \dotfill & $\mathrm{Nm}$ \\
     $[\omega]$         & Winkelgeschwindigkeit    \dotfill & $\mathrm{\frac{rad}{s}}$ \\
@@ -221,7 +289,7 @@ $\boxed{P_{\text{th}} = \dot{m} \cdot c \cdot \Delta \vartheta}$ \quad $\boxed{\
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[P_{\text{th}}]$       & Thermische Leistung           \dotfill & $\mathrm{W = \frac{J}{s}}$ \\
     $[\dot{m}]$             & Massenstrom                   \dotfill & $\mathrm{\frac{kg}{s}}$ \\
     $[c]$                   & Spezifische Wärmekapazität    \dotfill & $\mathrm{\frac{J}{kg \cdot K}}$ \\
@@ -236,7 +304,7 @@ $\boxed{P_{\text{VW}} = U \cdot A \cdot \Delta \vartheta}$
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[P_{\text{VW}}]$           & Wärmeverlustleistung          \dotfill & $\mathrm{W = \frac{J}{s}}$ \\
     $[U]$                       & Wärmedurchgangskoeffizient    \dotfill & $\mathrm{\frac{W}{m^2 \cdot K}}$ \\
     $[A]$                       & Fläche                        \dotfill & $\mathrm{m^2}$ \\
@@ -249,7 +317,7 @@ $\boxed{P_v = F \cdot v}$ \quad $\boxed{F = m \cdot g}$
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[P_v]$   & Mechanische Leistung   \dotfill & $\mathrm{W = \frac{J}{s} = \frac{Nm}{s}}$ \\
     $[F]$     & Kraft                  \dotfill & $\mathrm{N = kg \cdot \frac{m}{s^2}}$ \\
     $[m]$     & Masse                  \dotfill & $\mathrm{kg}$ \\
@@ -265,7 +333,7 @@ $\boxed{P_{\text{PV}} = \eta \cdot A \cdot E}$
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[P_{\text{PV}}]$    & Elektrische Leistung         \dotfill & $\mathrm{W = \frac{J}{s}}$ \\
     $[\eta]$             & Wirkungsgrad                 \dotfill & $-$ \\
     $[A]$                & Fläche der Solaranlage       \dotfill & $\mathrm{m^2}$ \\
@@ -280,7 +348,7 @@ $\boxed{P = \eta \cdot \rho \cdot g \cdot \dot{V} \cdot h}$
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[P]$         & Elektrische Leistung          \dotfill & $\mathrm{W = \frac{J}{s}}$ \\
     $[\eta]$      & Wirkungsgrad                  \dotfill & $-$ \\
     $[\rho]$      & Dichte                        \dotfill & $\mathrm{\frac{kg}{m^3}}$ \\
@@ -311,38 +379,26 @@ $\boxed{P_{\circlearrowleft} = \sqrt{3} \cdot U \cdot I \cdot \cos(\varphi)}$
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2}
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[P_{\circlearrowleft}]$  & Wirkleistung              \dotfill & $\mathrm{W = \frac{J}{s}}$ \\
     $[U]$                     & Verkettete Spannung       \dotfill & $\mathrm{V}$ \\
     $[I]$                     & Stromstärke               \dotfill & $\mathrm{A}$ \\
     $[\cos(\varphi)]$         & Leistungsfaktor           \dotfill & $-$ \\
 \end{tabular}
 
-
-
-\newcolumn
 \subsection{Schweizer Strom-Mix}
-$
-\begin{array}{|c|l|}
-    \hline
-    38.1 \% & \text{Kernkraft} \\ \hline
-    32.3 \% & \text{Speicherkraftwerke} \\ \hline
-    24.2 \% & \text{Laufkraftwerke} \\ \hline
-    5.4 \% & \text{konventionell-thermische Kraftwerke} \\ \hline
-\end{array}
-$
-
-$
 \begin{tabular}{|c|l|}
     \hline
+    38.1 \% & Kernkraft \\ \hline
+    32.3 \% & Speicherkraftwerke \\ \hline
+    24.2 \% & Laufkraftwerke \\ \hline
+    5.4 \%  & konventionell-thermische Kraftwerke \\ \hline
     1.52 \% & Kehrichtverbrennungsanlagen \\ \hline
     0.29 \% & Biomasse \\ \hline
     0.19 \% & Abwasserreinigungsanlagen \\ \hline
     0.13 \% & Photovoltaik \\ \hline
     0.06 \% & Windkraft \\ \hline
 \end{tabular}
-$
-
 
 \subsection{Investitions- und Kostenrechnung}
 
@@ -352,7 +408,7 @@ $\boxed{A = \frac{(1 + i)^n \cdot i}{(1 + i)^n - 1}}$
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[A]$       & Annuitätsfaktor           \dotfill & $1$ \\
     $[i]$       & Zinsen                    \dotfill & $1$ \\
     $[n]$       & Anzahl Jahre Laufzeit     \dotfill & $1$ \\
@@ -365,7 +421,7 @@ $\boxed{K_{\text{K}} = A \cdot I}$
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[K_{\text{K}}]$    & Kapitalkosten     \dotfill & CHF oder € \\
     $[A]$               & Annuitätsfaktor   \dotfill & $1$ \\
     $[I]$               & Investitionen     \dotfill & CHF oder € \\
@@ -378,7 +434,7 @@ $\boxed{K_{\text{U}} = p_{\text{U}} \cdot I}$
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[K_{\text{U}}]$    & Unterhaltskosten              \dotfill & CHF oder € \\
     $[p_{\text{U}}]$    & Unterhaltskosten-Prozentsatz  \dotfill & $1$ \\
     $[I]$               & Investitionen                 \dotfill & CHF oder € \\
@@ -391,7 +447,7 @@ $\boxed{K_{\text{Fix}} = K_{\text{K}} + K_{\text{U}} = (A + p_{\text{U}}) \cdot 
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[K_{\text{Fix}}]$    & Fix-Kosten              \dotfill & CHF oder € \\
 \end{tabular}
 
@@ -402,7 +458,7 @@ $\boxed{E = t_{\text{VL}} \cdot C \cdot P}$
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[E]$               & Erlös             \dotfill & CHF oder € \\
     $[t_{\text{VL}}]$   & Volllaststunden   \dotfill & $\mathrm{h}$ \\
     $[C]$               & Grenzkosten       \dotfill & $\frac{\text{CHF}}{\text{MWh}}$ oder $\frac{\text{€}}{\text{MWh}}$ \\
@@ -418,7 +474,7 @@ $\boxed{G = E - K_{\text{Fix}} - K_{\text{Var}}}$
 \vspace{0.15cm}
 
 \renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
-\begin{tabular}{@{} l p {4cm} l @{}}
+\begin{tabular}{@{} l p {3.5cm} l @{}}
     $[G]$               & Ergebnis        \dotfill & CHF oder € \\
     $[E]$               & Erlös           \dotfill & CHF oder € \\
     $[K_{\text{Fix}}]$  & Fix-Kosten      \dotfill & CHF oder € \\
@@ -441,4 +497,3 @@ Solarkraftwerke & ...80 & 10...14 & 5...10 \\
 PV-Kraftwerke & ...7 & 6...12 & 7 $\cdot 10^3$...20 $\cdot 10^3$ \\
 \hline
 \end{tabular}
-

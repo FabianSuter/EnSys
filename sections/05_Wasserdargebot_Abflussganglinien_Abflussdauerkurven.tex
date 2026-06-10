@@ -1,31 +1,30 @@
-\newpage
 \section{Wasserdargebot für Wasserkraft}
 
 \subsection{Abflussganglinie}
-Abfluss $Q_b$ in $\frac{m^3}{s}$ während eines Jahres (365 Tage)\\
-\begin{minipage}[c]{0.58\columnwidth}
-    \begin{center}
-        \includegraphics[width=0.95\textwidth, align=c]{images/Abflussganglinie.png}
-    \end{center}
-\end{minipage}
-
-\vspace{0.25cm}
-
-
+    \begin{minipage}[t]{0.4\columnwidth}
+        Abfluss $Q_b$ in \unit{\cubic\metre\per\second} während eines Jahres (365 Tage)
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.58\columnwidth}
+        \begin{center}
+            \includegraphics[width=0.95\textwidth, align=c]{images/Abflussganglinie.png}
+        \end{center}
+    \end{minipage}
 
 \subsection{Abflussdauerkurve}
-Abfluss $Q_b$ in $\frac{m^3}{s}$ während eines Jahres (365 Tage), sortiert der Grösse nach\\
-\begin{minipage}[c]{0.48\columnwidth}
-    \begin{center}
-        \includegraphics[width=0.95\textwidth, align=c]{images/Abflussdauerkurve.png}
-    \end{center}
-\end{minipage}
+    \begin{minipage}[t]{0.4\columnwidth}
+        Abfluss $Q_b$ in \unit{\cubic\metre\per\second} während eines Jahres (365 Tage), sortiert der Grösse nach
 
-\vspace{0.15cm}
+        \medskip
 
-\textbf{Abfluss ist an 275 Tagen mindestens $Q_x$}
-
-
+        \textbf{Abfluss ist an 275 Tagen mindestens $Q_x$}
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[c]{0.48\columnwidth}
+        \begin{center}
+            \includegraphics[width=0.95\textwidth, align=c]{images/Abflussdauerkurve.png}
+        \end{center}
+    \end{minipage}
 
 \subsection{Nutzwassermenge}
 \includegraphics[width=0.8\columnwidth, align=c]{images/Nutzwassermenge.png}
@@ -38,9 +37,9 @@ $\boxed{Q_{Nutz} = Q_B - Q_{Rest}}$
 
 \renewcommand{\arraystretch}{1.2} % Erhöht Zeilenhöhe für bessere Lesbarkeit
 \begin{tabular}{@{} l p {6cm} l @{}}
-    $[Q_{Nutz}]$    & Nutzwassermenge   \dotfill & $\frac{m^3}{s}$ \\
-    $[Q_B]$         & Abflussmenge      \dotfill & $\frac{m^3}{s}$ \\
-    $[Q_{Rest}]$    & Restwassermenge   \dotfill & $\frac{m^3}{s}$ \\
+    $[Q_{Nutz}]$    & Nutzwassermenge   \dotfill & \unit{\cubic\metre\per\second} \\
+    $[Q_B]$         & Abflussmenge      \dotfill & \unit{\cubic\metre\per\second} \\
+    $[Q_{Rest}]$    & Restwassermenge   \dotfill & \unit{\cubic\metre\per\second} \\
 \end{tabular}
 
 \subsubsection{Mindest Restwassermenge $Q_{\mathrm{Rest}}$}
@@ -52,28 +51,25 @@ $Q_{\mathrm{Rest}}$ muss aufgrund von ökologischen Mindestanforderungen \textbf
 \textbf{Abflussmenge $Q_{347}$} & \textbf{Restwassermenge} \\
 \midrule
 bis 60 l/s Abflussmenge $Q_{347}$ & 50 l/s \\
-und für je weitere 10 l/s Abflussmenge $Q_{347}$ & 8 l/s mehr \\
+$\to$ pro weitere 10 l/s Abflussmenge $Q_{347}$ & 8 l/s mehr \\
 \addlinespace
 bis 160 l/s Abflussmenge $Q_{347}$ & 130 l/s \\
-und für je weitere 10 l/s Abflussmenge $Q_{347}$ & 4{,}4 l/s mehr \\
+$\to$ pro weitere 10 l/s Abflussmenge $Q_{347}$ & 4{,}4 l/s mehr \\
 \addlinespace
 bis 500 l/s Abflussmenge $Q_{347}$ & 280 l/s \\
-und für je weitere 100 l/s Abflussmenge $Q_{347}$ & 31 l/s mehr \\
+$\to$ pro weitere 100 l/s Abflussmenge $Q_{347}$ & 31 l/s mehr \\
 \addlinespace
 bis 2500 l/s Abflussmenge $Q_{347}$ & 900 l/s \\
-und für je weitere 100 l/s Abflussmenge $Q_{347}$ & 21{,}3 l/s mehr \\
+$\to$ pro weitere 100 l/s Abflussmenge $Q_{347}$ & 21{,}3 l/s mehr \\
 \addlinespace
 bis 10\,000 l/s Abflussmenge $Q_{347}$ & 2\,500 l/s \\
-und für je weitere 1\,000 l/s Abflussmenge $Q_{347}$ & 150 l/s mehr \\
+$\to$ pro weitere 1\,000 l/s Abflussmenge $Q_{347}$ & 150 l/s mehr \\
 \addlinespace
 ab 60\,000 l/s Abflussmenge $Q_{347}$ & 10\,000 l/s \\
 \bottomrule
 \end{tabular}
 
-
-
-
-
 \subsection{Triebwassersystem}
-Ein Triebwassersystem führt das Wasser vom Speicher zur Turbine eines Wasserkraftwerks. Es beinhaltet die Leitungswege wie Stollen und Druckleitungen. Verluste darin sind bei Speicherkraftwerken bedeutsam, bei Laufwasserkraftwerken jedoch meist vernachlässigbar.
-\newcolumn
+Ein Triebwassersystem führt das Wasser vom Speicher zur Turbine eines Wasserkraftwerks. 
+Es beinhaltet die Leitungswege wie Stollen und Druckleitungen. 
+Verluste darin sind bei Speicherkraftwerken bedeutsam, bei Laufwasserkraftwerken jedoch meist vernachlässigbar.
