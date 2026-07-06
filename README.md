@@ -13,6 +13,8 @@ OST Rapperswil
 Die Zusammenfassung wurde sorgfältig erstellt, es kann allerdings keine Garantie für den Inhalt gegeben werden.
 Diese Zusammenfassung entstand ursprünglich von [Luca Loop und Ramon Schläpfer](https://github.com/Luca-ET/EnSys).
 
+Danke an Sandro Heidrich und Alessio Ciceri fürs Gegenlesen und die Ergänzungen.
+
 ## Quellen
 
 Einige Inhalte wurden aus den Unterrichtsmaterialien entnommen.
